@@ -415,3 +415,132 @@ footer {
 		margin-top: 20px;
 	}
 }	
+
+
+
+
+//single fullwidth post
+
+#content {
+
+background: whitesmoke;
+img  {
+width: 100%;
+}
+
+
+.main {
+		.date {
+
+		font-family: 'Open Sans Condensed', sans-serif;
+		color: silver;
+		.num {
+		font-size: 80px;
+		color: #333;
+		}
+		.slash {
+		font-size: 70px;
+		position: relative;
+		}
+		}
+		.icons  {
+		text-align: left;
+		color: #ddc;
+		font-family: 'Dancing Script', cursive;
+		i {
+		padding-right: 5px;
+		color: silver;
+		}
+		}
+
+		.hashtags {
+		padding: 0;
+		margin-top: 15px;
+		list-style: none;
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-flow: row wrap;
+		justify-content: flex-start;
+		.thumbnail {
+		padding:0;
+		// margin: 0;
+		}
+		li {
+		// padding: 7px;
+		// margin-right: 3px;
+		background: whitesmoke;
+		}
+
+		}
+		h2 {
+		text-transform: uppercase;
+		font-weight: bold;
+		font-family: 'Chewy', cursive;
+		}
+		img {
+		margin: 10px 0;
+		}
+		p {
+		color: spacegray;
+		}
+}
+.lines {
+
+	.line1 {
+	background: silver;
+	width: 130px;
+	height: 2px;
+	position: relative;
+	top: -23px;
+	left: 110px;
+	}
+	.line2 {
+	background: silver;
+	width: 65px;
+	height: 2px;
+	position: relative;
+	top: -19px;
+	left: 110px;
+	}
+	.line3 {
+		background: silver;
+	    width: 136px;
+	    height: 2px;
+	    position: relative;
+	    top: -23px;
+	    left: 117px;
+	}
+	.line4 {
+		background: silver;
+	    width: 68px;
+	    height: 2px;
+	    position: relative;
+	    top: -19px;
+	    left: 117px;
+	}
+}
+
+.comments {
+	h5 {
+		font-weight: bold;
+		display: inline-block;
+	}
+	span {
+		position: relative;
+		left: 270px;
+		color: silver;
+	}
+	.socialmedia {
+		a {
+		color: silver;
+
+		}
+		color: silver;
+		
+	}
+	
+}
+}

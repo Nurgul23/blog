@@ -278,4 +278,87 @@ footer {
     text-align: center;
     margin-top: 20px; }
 
+#content {
+  background: whitesmoke; }
+  #content img {
+    width: 100%; }
+  #content .main .date {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: silver; }
+    #content .main .date .num {
+      font-size: 80px;
+      color: #333; }
+    #content .main .date .slash {
+      font-size: 70px;
+      position: relative; }
+  #content .main .icons {
+    text-align: left;
+    color: #ddc;
+    font-family: 'Dancing Script', cursive; }
+    #content .main .icons i {
+      padding-right: 5px;
+      color: silver; }
+  #content .main .hashtags {
+    padding: 0;
+    margin-top: 15px;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: flex-start; }
+    #content .main .hashtags .thumbnail {
+      padding: 0; }
+    #content .main .hashtags li {
+      background: whitesmoke; }
+  #content .main h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Chewy', cursive; }
+  #content .main img {
+    margin: 10px 0; }
+  #content .main p {
+    color: spacegray; }
+  #content .lines .line1 {
+    background: silver;
+    width: 130px;
+    height: 2px;
+    position: relative;
+    top: -23px;
+    left: 110px; }
+  #content .lines .line2 {
+    background: silver;
+    width: 65px;
+    height: 2px;
+    position: relative;
+    top: -19px;
+    left: 110px; }
+  #content .lines .line3 {
+    background: silver;
+    width: 136px;
+    height: 2px;
+    position: relative;
+    top: -23px;
+    left: 117px; }
+  #content .lines .line4 {
+    background: silver;
+    width: 68px;
+    height: 2px;
+    position: relative;
+    top: -19px;
+    left: 117px; }
+  #content .comments h5 {
+    font-weight: bold;
+    display: inline-block; }
+  #content .comments span {
+    position: relative;
+    left: 270px;
+    color: silver; }
+  #content .comments .socialmedia {
+    color: silver; }
+    #content .comments .socialmedia a {
+      color: silver; }
+
 /*# sourceMappingURL=style.css.map */
