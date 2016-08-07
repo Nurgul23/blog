@@ -1,0 +1,417 @@
+ul {
+	margin: 0;
+}
+@font-face {
+	font-family: 'Acto Hairline';
+	src: url('Acto-Hairline.eot');
+	src: url('Acto-Hairline.eot?#iefix') format('embedded-opentype'),
+		url('Acto-Hairline.woff') format('woff'),
+		url('Acto-Hairline.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+body {
+position: relative;
+}
+#navbar {
+background: white;
+color: gray;
+height: 50px;
+.panel {
+border-radius: 0;
+
+}
+
+ul {
+padding: 0;
+margin: 0;
+// display: flex;
+// flex-direction: row;
+// justify-content: space-around; 
+li {
+			
+a {
+	
+font-weight: bold;
+
+span {
+font-size: 30px;
+font-weight: bold;
+color: #000;
+}
+}
+}
+}
+.glyphicon {
+font-size: 30px;
+color: lightgray;
+float: right;
+margin: 10px 0;
+}
+}
+/*Header section*/
+#header {
+background-size: cover;
+height: 700px;
+background-image: url(../images/image1.jpg);
+.intro {
+position: relative;
+top: 300px;
+color: white;
+text-align: center;
+h2 {
+letter-spacing: 6px;
+text-transform: uppercase;
+}
+p{
+text-transform: uppercase;
+}
+}
+}
+
+
+$twitter_color: dodgerblue;
+
+#main {
+background: whitesmoke;
+/*let me show you a few things*/
+.card {
+	.fa-quote-left {
+	color: lightgray;
+	position: relative;
+	top: -25px;
+	left: 240px;
+}
+	margin-top: 70px;
+	border-radius: 0;
+	img {
+	// position: relative;
+	// top: -15px;
+	width: 100%;
+	}
+.date {
+	margin-top: 72px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: silver;
+	@media only screen and (min-width : 321px) {
+    	// margin-top: 0;
+	}
+.num {
+font-size: 80px;
+color: #333;
+}
+.slash {
+font-size: 70px;
+
+}
+
+}
+h4 {
+text-transform: uppercase;
+text-align: left;
+font-family: 'Chewy', cursive;
+}
+b {
+	font-family: 'Dancing Script', cursive;
+}
+.icons  {
+text-align: left;
+color: #ddc;
+i {
+padding-right: 5px;
+color: silver;
+
+}
+}
+p{
+text-align: left;
+font-family: 'Handlee', cursive;
+font-weight: 600;
+margin-top: 15px;
+	text-transform: uppercase;
+	color: silver;
+	font-weight: bold;
+
+}
+ }
+/*let me show you a few things*/
+
+
+
+
+
+
+.profile_card {
+margin-top: 70px;
+background-color: #fff;
+border-radius: 0;
+img {
+// position: relative;
+// top: -15px;
+width: 100%;
+}
+iframe {
+// position: relative;
+// top: -15px;
+width: 100%;
+}
+h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Chewy', cursive;
+}
+p {
+	color: silver;
+	font-family: 'Handlee', cursive;
+	text-transform: uppercase;
+	color: silver;
+	font-weight: bold;
+}
+}
+
+.subscribe {
+	color: silver;
+	padding: 10px 10px;
+	p {
+		font-family: 'Handlee', cursive;
+		
+	}
+	i {
+		padding:0 5px;
+	}
+		.fa-twitter {
+			color: $twitter_color;
+		}
+}
+// 
+
+.lines {
+
+	.line1 {
+	    background: silver;
+	    width: 130px;
+	    height: 2px;
+	    position: relative;
+	    top: -23px;
+	    left: 127px;
+	}
+	.line2 {
+	    background: silver;
+	    width: 65px;
+	    height: 2px;
+	    position: relative;
+	    top: -19px;
+	    left: 127px;
+	}
+	.line3 {
+		background: silver;
+	    width: 172px;
+	    height: 2px;
+	    position: relative;
+	    top: -23px;
+	    left: 81px;
+	}
+	.line4 {
+		background: silver;
+	    width: 86px;
+	    height: 2px;
+	    position: relative;
+	    top: -19px;
+	    left: 81px;
+	}
+	.line5 {
+		background: silver;
+	    width: 163px;
+	    height: 2px;
+	    position: relative;
+	    top: -23px;
+	    left: 90px;
+	}
+	.line6 {
+		background: silver;
+	    width: 80px;
+	    height: 2px;
+	    position: relative;
+	    top: -19px;
+	    left: 90px;
+	}
+}
+
+}
+
+
+.postcards {
+	img {
+		// margin-top: -15px;
+		height: 49.98px;
+		width: 107.5px;
+	}
+	iframe {
+		// margin-top: -15px;
+	}
+	.smallDate {
+		color: silver;
+		font-family: 'Open Sans Condensed', sans-serif;
+
+		.num {
+			color: #333 ;
+			font-size: 35px;
+		}
+		.slash {
+		font-size: 35px;
+		position: relative;
+    	top: 7px;
+		}
+		.mon {
+		 position: relative;
+	     top: 7px;
+		}
+	}
+	h5 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Chewy', cursive;
+	}
+	a {
+		color: silver;
+	}
+}
+
+.archives {
+	 ul{
+	 	// padding:0;
+	 	padding-left: 15px;
+	 	margin: 0;
+	 }
+	 a {
+	 	color: #000;
+	 	text-decoration: none;
+	 }
+}
+
+.instagram {
+	margin-top: 30px;
+	.boyPic{
+		border-radius: 100%;
+		width: 80px;
+		height: 80px;
+		// position: relative;
+		// top: -40px;
+		// left: -70px;
+	}
+	.photos {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.flex-items {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+	img {
+		width: 80px;
+		height: 80px;
+		// padding: 10px;
+
+		}
+	}
+		@media screen and (max-width: 500px) {
+			img {
+			width: 120px;
+			height: 120px;
+			}
+		}
+}
+
+.hashtags {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-flow: row wrap;
+	justify-content: flex-start; 
+	li {
+		padding: 7px;
+		margin-right: 3px;
+	}
+	
+}
+
+
+.subscrible {
+	text-align: center;
+	background-image: url(../images/vv.jpg);
+	background-size: cover;
+	h2 {
+		color: white;
+		font-weight: bold;
+	}
+	p {
+		color: white;
+		font-weight: bold;
+	}
+	input {
+		display: block;
+		margin: auto;
+		border: none;
+	}
+	button {
+		margin-top: 10px;
+		
+	}
+	.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #8064A2;
+    border-color: #8064A2;
+}
+}
+
+
+
+footer {
+	height: 50px;
+	.footerTitle {
+		text-align: center;
+	h3 {
+	font-weight: bold;
+	color: silver;
+	}		
+	}
+	.icons {
+		text-align: center;
+	margin-top: 20px;
+	color: silver;
+	i {
+	padding:0 3px;	
+		
+	}
+		.fa-twitter {
+			color: $twitter_color;
+		}
+
+	}
+	p {
+		color: silver;
+		text-align: center;
+		margin-top: 20px;
+	}
+}	

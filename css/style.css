@@ -1,0 +1,281 @@
+ul {
+  margin: 0; }
+
+@font-face {
+  font-family: 'Acto Hairline';
+  src: url("Acto-Hairline.eot");
+  src: url("Acto-Hairline.eot?#iefix") format("embedded-opentype"), url("Acto-Hairline.woff") format("woff"), url("Acto-Hairline.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal; }
+body {
+  position: relative; }
+
+#navbar {
+  background: white;
+  color: gray;
+  height: 50px; }
+  #navbar .panel {
+    border-radius: 0; }
+  #navbar ul {
+    padding: 0;
+    margin: 0; }
+    #navbar ul li a {
+      font-weight: bold; }
+      #navbar ul li a span {
+        font-size: 30px;
+        font-weight: bold;
+        color: #000; }
+  #navbar .glyphicon {
+    font-size: 30px;
+    color: lightgray;
+    float: right;
+    margin: 10px 0; }
+
+/*Header section*/
+#header {
+  background-size: cover;
+  height: 700px;
+  background-image: url(../images/image1.jpg); }
+  #header .intro {
+    position: relative;
+    top: 300px;
+    color: white;
+    text-align: center; }
+    #header .intro h2 {
+      letter-spacing: 6px;
+      text-transform: uppercase; }
+    #header .intro p {
+      text-transform: uppercase; }
+
+#main {
+  background: whitesmoke;
+  /*let me show you a few things*/
+  /*let me show you a few things*/ }
+  #main .card {
+    margin-top: 70px;
+    border-radius: 0; }
+    #main .card .fa-quote-left {
+      color: lightgray;
+      position: relative;
+      top: -25px;
+      left: 240px; }
+    #main .card img {
+      width: 100%; }
+    #main .card .date {
+      margin-top: 72px;
+      font-family: 'Open Sans Condensed', sans-serif;
+      color: silver; }
+      #main .card .date .num {
+        font-size: 80px;
+        color: #333; }
+      #main .card .date .slash {
+        font-size: 70px; }
+    #main .card h4 {
+      text-transform: uppercase;
+      text-align: left;
+      font-family: 'Chewy', cursive; }
+    #main .card b {
+      font-family: 'Dancing Script', cursive; }
+    #main .card .icons {
+      text-align: left;
+      color: #ddc; }
+      #main .card .icons i {
+        padding-right: 5px;
+        color: silver; }
+    #main .card p {
+      text-align: left;
+      font-family: 'Handlee', cursive;
+      font-weight: 600;
+      margin-top: 15px;
+      text-transform: uppercase;
+      color: silver;
+      font-weight: bold; }
+  #main .profile_card {
+    margin-top: 70px;
+    background-color: #fff;
+    border-radius: 0; }
+    #main .profile_card img {
+      width: 100%; }
+    #main .profile_card iframe {
+      width: 100%; }
+    #main .profile_card h3 {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-family: 'Chewy', cursive; }
+    #main .profile_card p {
+      color: silver;
+      font-family: 'Handlee', cursive;
+      text-transform: uppercase;
+      color: silver;
+      font-weight: bold; }
+  #main .subscribe {
+    color: silver;
+    padding: 10px 10px; }
+    #main .subscribe p {
+      font-family: 'Handlee', cursive; }
+    #main .subscribe i {
+      padding: 0 5px; }
+    #main .subscribe .fa-twitter {
+      color: dodgerblue; }
+  #main .lines .line1 {
+    background: silver;
+    width: 130px;
+    height: 2px;
+    position: relative;
+    top: -23px;
+    left: 127px; }
+  #main .lines .line2 {
+    background: silver;
+    width: 65px;
+    height: 2px;
+    position: relative;
+    top: -19px;
+    left: 127px; }
+  #main .lines .line3 {
+    background: silver;
+    width: 172px;
+    height: 2px;
+    position: relative;
+    top: -23px;
+    left: 81px; }
+  #main .lines .line4 {
+    background: silver;
+    width: 86px;
+    height: 2px;
+    position: relative;
+    top: -19px;
+    left: 81px; }
+  #main .lines .line5 {
+    background: silver;
+    width: 163px;
+    height: 2px;
+    position: relative;
+    top: -23px;
+    left: 90px; }
+  #main .lines .line6 {
+    background: silver;
+    width: 80px;
+    height: 2px;
+    position: relative;
+    top: -19px;
+    left: 90px; }
+
+.postcards img {
+  height: 49.98px;
+  width: 107.5px; }
+.postcards .smallDate {
+  color: silver;
+  font-family: 'Open Sans Condensed', sans-serif; }
+  .postcards .smallDate .num {
+    color: #333;
+    font-size: 35px; }
+  .postcards .smallDate .slash {
+    font-size: 35px;
+    position: relative;
+    top: 7px; }
+  .postcards .smallDate .mon {
+    position: relative;
+    top: 7px; }
+.postcards h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Chewy', cursive; }
+.postcards a {
+  color: silver; }
+
+.archives ul {
+  padding-left: 15px;
+  margin: 0; }
+.archives a {
+  color: #000;
+  text-decoration: none; }
+
+.instagram {
+  margin-top: 30px; }
+  .instagram .boyPic {
+    border-radius: 100%;
+    width: 80px;
+    height: 80px; }
+  .instagram .photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  .instagram .flex-items {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around; }
+    .instagram .flex-items img {
+      width: 80px;
+      height: 80px; }
+  @media screen and (max-width: 500px) {
+    .instagram img {
+      width: 120px;
+      height: 120px; } }
+
+.hashtags {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-start; }
+  .hashtags li {
+    padding: 7px;
+    margin-right: 3px; }
+
+.subscrible {
+  text-align: center;
+  background-image: url(../images/vv.jpg);
+  background-size: cover; }
+  .subscrible h2 {
+    color: white;
+    font-weight: bold; }
+  .subscrible p {
+    color: white;
+    font-weight: bold; }
+  .subscrible input {
+    display: block;
+    margin: auto;
+    border: none; }
+  .subscrible button {
+    margin-top: 10px; }
+  .subscrible .btn-primary,
+  .subscrible .btn-primary:hover,
+  .subscrible .btn-primary:active,
+  .subscrible .btn-primary:visited,
+  .subscrible .btn-primary:focus {
+    background-color: #8064A2;
+    border-color: #8064A2; }
+
+footer {
+  height: 50px; }
+  footer .footerTitle {
+    text-align: center; }
+    footer .footerTitle h3 {
+      font-weight: bold;
+      color: silver; }
+  footer .icons {
+    text-align: center;
+    margin-top: 20px;
+    color: silver; }
+    footer .icons i {
+      padding: 0 3px; }
+    footer .icons .fa-twitter {
+      color: dodgerblue; }
+  footer p {
+    color: silver;
+    text-align: center;
+    margin-top: 20px; }
+
+/*# sourceMappingURL=style.css.map */
