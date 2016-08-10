@@ -20,6 +20,7 @@ body {
     padding: 0;
     margin: 0; }
     #navbar ul li a {
+      font-size: 15px;
       font-weight: bold; }
       #navbar ul li a span {
         font-size: 30px;
@@ -213,12 +214,13 @@ body {
     justify-content: space-around; }
     .instagram .flex-items img {
       width: 80px;
-      height: 80px; }
-  @media screen and (max-width: 500px) {
-    .instagram img {
-      width: 120px;
-      height: 120px; } }
+      height: 80px;
+      object-fit: fill; }
 
+@media screen and (max-width: 480px) {
+  .instagram img {
+    width: 120px;
+    height: 120px; } }
 .hashtags {
   padding: 0;
   margin: 0;
@@ -279,6 +281,7 @@ footer {
     margin-top: 20px; }
 
 #content {
+  padding-top: 99px;
   background: whitesmoke; }
   #content img {
     width: 100%; }
@@ -353,12 +356,60 @@ footer {
     font-weight: bold;
     display: inline-block; }
   #content .comments span {
-    position: relative;
-    left: 270px;
     color: silver; }
   #content .comments .socialmedia {
     color: silver; }
     #content .comments .socialmedia a {
       color: silver; }
+
+.header span {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000; }
+.header a {
+  text-decoration: none; }
+
+header {
+  background-size: cover;
+  margin-top: 49px;
+  height: 300px;
+  background-image: url(../images/tt.png); }
+
+#content2 {
+  background-size: cover;
+  padding-top: 50px;
+  height: auto;
+  background-image: url(https://secure.static.tumblr.com/8234ed5586728cd084ec6250765d0607/jjd651b/cePn9her6/tumblr_static_mm.jpg); }
+  #content2 img {
+    height: 150px;
+    width: 100%;
+    object-fit: fill; }
+  #content2 .fa-quote-left {
+    color: lightgray;
+    text-align: center; }
+  #content2 h6 {
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Chewy', cursive; }
+  #content2 .icons {
+    text-align: left;
+    color: #ddc; }
+    #content2 .icons i {
+      padding-right: 5px;
+      color: silver; }
+  #content2 .date {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: silver; }
+    #content2 .date .num {
+      font-size: 60px;
+      color: #333; }
+    #content2 .date .slash {
+      font-size: 50px; }
+  #content2 p {
+    text-align: left;
+    font-family: 'Handlee', cursive;
+    margin-top: 15px; }
+  #content2 b {
+    font-family: 'Dancing Script', cursive; }
 
 /*# sourceMappingURL=style.css.map */
