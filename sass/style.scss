@@ -1,6 +1,5 @@
-ul {
-	margin: 0;
-}
+@import "partials/media";
+
 @font-face {
 	font-family: 'Acto Hairline';
 	src: url('Acto-Hairline.eot');
@@ -72,6 +71,7 @@ text-transform: uppercase;
 
 
 $twitter_color: dodgerblue;
+$like_color: crimson;
 
 #main {
 background: whitesmoke;
@@ -83,7 +83,7 @@ background: whitesmoke;
 	color: lightgray;
 	position: relative;
 	top: -25px;
-	left: 240px;
+	
 }
 	margin-top: 70px;
 	border-radius: 0;
@@ -177,6 +177,7 @@ p {
 	}
 	i {
 		padding:0 5px;
+		text-align: center;
 	}
 		.fa-twitter {
 			color: $twitter_color;
@@ -327,12 +328,7 @@ p {
 	
 }
 
-@media screen and (max-width: 480px) {
-    .instagram img {
-        width: 120px;
-        height: 120px;
-    }
-}
+
 
 .hashtags {
 	padding: 0;
@@ -398,7 +394,7 @@ footer {
 	}		
 	}
 	.icons {
-		text-align: center;
+	text-align: center;
 	margin-top: 20px;
 	color: silver;
 	i {
@@ -447,7 +443,8 @@ width: 100%;
 		.icons  {
 		text-align: left;
 		color: #ddc;
-		font-family: 'Dancing Script', cursive;
+		font-family: 'Lato', sans-serif;
+		
 		i {
 		padding-right: 5px;
 		color: silver;
@@ -479,13 +476,16 @@ width: 100%;
 		h2 {
 		text-transform: uppercase;
 		font-weight: bold;
-		font-family: 'Chewy', cursive;
+		font-family: 'Lato', sans-serif;
+		
 		}
 		img {
 		margin: 10px 0;
 		}
 		p {
 		color: spacegray;
+		font-family: 'Lato', sans-serif;
+
 		}
 }
 .lines {
@@ -525,9 +525,11 @@ width: 100%;
 }
 
 .comments {
+	font-family: 'Lato', sans-serif;
 	h5 {
 		font-weight: bold;
 		display: inline-block;
+
 	}
 	span {
 		
@@ -540,10 +542,22 @@ width: 100%;
 
 		}
 		color: silver;
-		
+		.fa-heart:hover {
+			color: $like_color;
+		}
+		.fa-reply:hover {
+			color: $twitter_color;
+		}
 	}
 	
 }
+}
+textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	width: 100%;
 }
 
 //single fullwidth post ends
@@ -567,8 +581,10 @@ header {
 	background-size: cover;
 	margin-top: 49px;
 	height: 300px;
-	background-image: url(../images/tt.png);
+	background-image: url(https://hd.unsplash.com/photo-1467348733814-f93fc480bec6);
 }
+
+
 
 #content2 {
 	background-size: cover;
@@ -586,11 +602,11 @@ header {
 }
 	h6 {
 		text-transform: uppercase;
-		text-align: left;
+		text-align: center;
 		font-family: 'Chewy', cursive;
 	}
 	.icons  {
-	text-align: left;
+	text-align: center;
 	color: #ddc;
 		i {
 		padding-right: 5px;

@@ -1,0 +1,88 @@
+// If you think responsive's simple,
+ // I feel bad for you son. 
+ // We got 99 viewports,
+  // but the iPhone's just one.
+
+
+//devices
+
+
+//iphone 5 and 5s
+@media (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .instagram img {
+        width: 80px !important;
+        height: 80px !important;
+    }
+}
+
+
+//iphone 6 
+@media (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .instagram img {
+        width: 80px !important;
+        height: 80px !important;
+    }
+}
+
+//iphone 6+
+@media (min-device-width: 414px) 
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 2) 
+ { 
+    .instagram img {
+        width: 80px !important;
+        height: 80px !important;
+    }
+}
+
+//nexus 5x
+@media (min-device-width: 411px)
+and (max-device-width: 731px)
+and (-webkit-min-device-pixel-ratio: 2){
+    .instagram img {
+        width: 90px !important;
+        height: 90px !important;
+    }	
+}
+
+
+//nexus 6p
+@media (min-device-width: 435px)
+and (max-device-width: 773px)
+and (-webkit-min-device-pixel-ratio: 2){
+    .instagram img {
+        width: 100px !important;
+        height: 100px !important;
+    }	
+}
+
+
+//ipad
+@media (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 2){
+    .instagram img {
+        width: 190px !important;
+        height: 190px !important;
+    }	
+}
+
+
+@media (max-width: 600px) {
+	#content2 img {
+		height: 250px !important;
+	}
+	#content2 .item img {
+		height: 250px !important;
+	}
+	#content2 .carousel-control {
+		height: 230px !important;
+	}
+	#content2 iframe {
+		height: 250px !important;
+	}
+}
